@@ -1,0 +1,13 @@
+version: '3'
+services:
+  web:
+    build:
+      context: ../..
+      dockerfile: ci/docker/Dockerfile
+    image: ziatin/nb4l/web:ci
+    ports:
+      - "8888:8888"
+    environment:
+      - DEBUG
+    volumes:
+      - ../../notebooks:/app/notebooks

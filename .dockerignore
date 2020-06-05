@@ -1,0 +1,31 @@
+.DS_Store
+
+.git/
+.gitignore
+
+.idea/
+notebooks.iml
+
+.env
+.ipynb_checkpoints
+.Rhistory
+
+notebooks/data/*.*
+notebooks/charts/*.*
+notebooks/results/*.*
+!notebooks/results/example*.csv
+
+/ci
+
+# Project-related
+docker-images.tar.gz
+
+# Jupyter Lab
+/lab
+
+# JupyterHub
+/migrated
+jupyterhub.sqlite
+jupyterhub_cookie_secret
+jupyterhub-proxy.pid
+passwords.dbm
