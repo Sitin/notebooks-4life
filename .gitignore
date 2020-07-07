@@ -141,6 +141,7 @@ passwords.dbm
 # Jupyter Lab
 /lab
 /configstore
+.virtual_documents
 
 # R
 .Rhistory
